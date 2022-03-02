@@ -6,7 +6,8 @@ public class TopDownMove : MonoBehaviour
 {
     //Movement/Position variables
     public Rigidbody2D player;
-    
+    public float speed;
+    public bool interact = false;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,15 @@ public class TopDownMove : MonoBehaviour
     void Update()
     {
         //actually moves player
-        player.velocity = new Vector2(Input.GetAxis("Horizontal")*3, Input.GetAxis("Vertical")*3);
-        
+        player.velocity = new Vector2((Input.GetAxis("Horizontal")*speed), (Input.GetAxis("Vertical")*speed));
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            interact = true;
+        }
+        else
+        {
+            interact = false;
+        }
     }
 }
