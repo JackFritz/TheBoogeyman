@@ -72619,9 +72619,9 @@ GameObject:
   - component: {fileID: 1882122345}
   - component: {fileID: 1882122344}
   - component: {fileID: 1882122347}
-  - component: {fileID: 1882122346}
   - component: {fileID: 1882122348}
   - component: {fileID: 1882122349}
+  - component: {fileID: 1882122346}
   m_Layer: 0
   m_Name: claire-Idle
   m_TagString: Untagged
@@ -72703,13 +72703,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1882122343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a574ddc7d0b61c45a2a93185a6e96cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 90fecf67d43d57843843fca3f5471696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1882122348}
-  speed: 10
-  moveHorizontal: 0
-  moveVertical: 0
+  player: {fileID: 1882122347}
+  speed: 3
+  interact: 0
+  ply: {fileID: 1882122344}
+  PlayAnim: {fileID: 1882122348}
 --- !u!50 &1882122347
 Rigidbody2D:
   serializedVersion: 4
