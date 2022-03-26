@@ -9,20 +9,22 @@ public class Togglescript : MonoBehaviour
     public GameObject Player;
 
     public bool Talk;
+    void OnPreCull()
+    {
+        //Dialog.SetActive(true);
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Dialog.SetActive(false);
 
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Input.GetKey(KeyCode.E))
-        {
+       
             Talk = true;
             Debug.Log("Enterd Tri");
-        }
         
     }
 
@@ -34,6 +36,10 @@ public class Togglescript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.E))
+        {
+            Talk = true;
+        }
         if(Talk == true)
         {
             Dialog.SetActive(true);  

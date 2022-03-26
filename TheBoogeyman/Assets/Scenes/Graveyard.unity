@@ -73068,7 +73068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1882122347}
-  speed: 6
+  speed: 3
   interact: 0
   ply: {fileID: 1882122344}
   PlayAnim: {fileID: 1882122348}
