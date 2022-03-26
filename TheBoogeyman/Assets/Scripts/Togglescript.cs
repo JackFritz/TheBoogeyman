@@ -12,43 +12,36 @@ public class Togglescript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Dialog.SetActive(false);
+        
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Talk == true)
-        {
-            Dialog.SetActive(true);
-        }
-        else
-        {
-            Dialog.SetActive(false);
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        Talk = true;
-        Debug.Log("Enterd Col");
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        Talk = false;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Talk = true;
-        Debug.Log("Enterd Tri");
+        if (Input.GetKey(KeyCode.E))
+        {
+            Talk = true;
+            Debug.Log("Enterd Tri");
+        }
+        
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
         Talk = false;
-
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+        if(Talk == true)
+        {
+            Dialog.SetActive(true);  
+        }
+        else
+        {
+            Dialog.SetActive(false);
+        }
+        
     }
 }
