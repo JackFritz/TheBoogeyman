@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.12",
       "depth": 0,
@@ -92,13 +104,13 @@
       }
     },
     "dev.yarnspinner.unity": {
-      "version": "2.1.0",
+      "version": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.unity.textmeshpro": "1.4.1"
       },
-      "url": "https://package.openupm.com"
+      "hash": "05c7abb667587e7a2a636e855799be6613fd0606"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
