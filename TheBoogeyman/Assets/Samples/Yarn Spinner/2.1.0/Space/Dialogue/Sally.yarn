@@ -53,6 +53,8 @@ position: 827,439
 Sally: Yeah. Don't do it again. #line:d7df49
 ===
 title: Declarations
+tags: 
+position: -16.31690788269043,-31.274073600769043
 ---
 // <<declare $should_see_ship = false "Whether the player knows they should talk to the Ship.">>
 // <<declare $sally_warning = false "Whether the player has been given the warning from Sally.">>
