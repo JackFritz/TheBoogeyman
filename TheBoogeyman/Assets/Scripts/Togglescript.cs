@@ -1,53 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class Togglescript : MonoBehaviour
 {
 
-    public GameObject Dialog;
+    public DialogueRunner Dr;
+    public Canvas canvas;
     public GameObject Player;
 
     public bool Talk;
-    void OnPreCull()
-    {
-        //Dialog.SetActive(true);
-    }
+    
     // Start is called before the first frame update
     void Start()
     {
-        //Dialog.SetActive(false);
-
+        canvas.enabled = false;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-       
-            Talk = true;
-            Debug.Log("Enterd Tri");
-        
+        Talk = true;
+        Debug.Log("Enterd Tri");
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
         Talk = false;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.E))
+       
+        if (Talk == true)
         {
-            Talk = true;
-        }
-        if(Talk == true)
-        {
-            Dialog.SetActive(true);  
+            //Dialog.SetActive(true);
+            //canvas.enabled = true;
+            Dr.StartDialogue("HelloYarn");
         }
         else
         {
-            Dialog.SetActive(false);
+            //Dialog.SetActive(false);
+            //canvas.enabled = false;
         }
-        
+
     }
 }
+
