@@ -1,6 +1,11 @@
 ﻿title: Start
-position: -23,-25
+tags: 
+position: -37,59
 ---
+<<if $Visited is true>>
+Cal:[[Hey friend!|Start2]]
+<<endif>>
+
 Cal: Wowzawee, let's a go! #line:09aad90 
 Cal: Is yarn kinda cool? #line:04e81f7 
 
@@ -18,20 +23,34 @@ Jack: Can I respond? #line:051b1f1
 -> SUPOER GLUUUE #line:09cc67a 
 
 Ahn: Then i add a line here #line:0419bcb 
-Cal: and lets end the convo here #line:0671304 
-
+<<set $Visited to true>>
+Cal: and lets end the convo here #line:0671304
 ===
 title: Node
-position: 224,136.5
+tags: 
+position: 346,122.5
 ---
 Joe: Mama is the name my friend #line:0e2d6a6 
 Kyle: yeah lets make it grand #line:05020b7 
 Joe: if you think this is the end #line:0a2439a 
 Kyle: reach out and take my hand. #line:02e39f7 
 
-Jack: #line:095c42d 
+Jack: Uh... #line:095c42d 
 -> reach for his hand #line:098bff4 
 -> PIMP SLAPPP #line:0dd735e 
 -> walk away #line:0a614a0 
 -> ask alexa to reapeat #line:0b7a775 
+
+Cal: Let's Ride!!
+===title: Start2
+tags: 
+---
+===
+title: Start2
+tags: 
+position: -15.271116124005857,325.9801403905374
+---
+Cal: LFG!!!! WE GOT THE SYTEM WORKING!!!
+Jack: relax bud, youre scaring the customers
+Ahn: *Does Art*
 ===

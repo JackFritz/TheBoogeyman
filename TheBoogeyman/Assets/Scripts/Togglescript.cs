@@ -10,40 +10,41 @@ public class Togglescript : MonoBehaviour
     public Canvas canvas;
     public GameObject Player;
 
-    public bool Talk;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         canvas.enabled = false;
+        Dr.Stop();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Talk = true;
-        Debug.Log("Enterd Tri");
+        if (CompareTag("Lucas"))
+        {
+            canvas.enabled = true;
+            Dr.StartDialogue("Start");
+        }
+        else if (CompareTag("Finish"))
+        {
+            canvas.enabled = true;
+            Dr.StartDialogue("Node");
+        }
+
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        Talk = false;
+        canvas.enabled = false;
+        Dr.Stop();
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        if (Talk == true)
-        {
-            //Dialog.SetActive(true);
-            //canvas.enabled = true;
-            Dr.StartDialogue("HelloYarn");
-        }
-        else
-        {
-            //Dialog.SetActive(false);
-            //canvas.enabled = false;
-        }
+        
 
     }
 }
