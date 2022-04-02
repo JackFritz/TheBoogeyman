@@ -1,0 +1,39 @@
+﻿title: Start
+tags:
+---
+-> Comfort Lucas over his loss #line:graveyard-narrator-01
+	Claire: I'm sorry I couldn't be here sooner. #line:graveyard-claire-01
+	Lucas doesn't respond as he stands there in silence. #line:graveyard-narrator-02
+	Claire: How are you holding up? #line:graveyard-claire-02
+	Lucas once again doesn't respond, but his silence speaks a thousand words. #line:graveyard-narrator-03
+	Claire: Talking about it might help. #line:graveyard-claire-03
+	Lucas: //sigh// #line:graveyard-lucas-01
+	<<wait 2>>
+	Claire: Just know that I am always here for you. #line:graveyard-claire-04
+	Lucas doesn't say anything. Claire realizes that her brother wants to be alone. #line:graveyard-narrator-04
+	//This is where the player would walk away and then a new dialogue box would trigger
+
+-> Confront Lucas about your suspicion that he is the Boogeyman #line:graveyard-narrator-05
+	Claire: They've been calling you, "The Boogeyman." #line:graveyard-claire-05
+	Lucas: ... #line:graveyard-lucas-02
+	<<wait 2>>
+	Lucas keeps staring down at the gravestone. #line:graveyard-narrator-06
+	Claire: They say you’ve been beating people within inches of their lives. #line:graveyard-claire-06
+	That the last thing they saw was a gun pointed in their face before being knocked unconscious. #line:graveyard-claire-07
+	I didn’t want to believe it was you but… #line:graveyard-claire-08
+	Lucas: How did you know it was me? #line:graveyard-lucas-03
+	Claire: *sighs* All of the criminals that “The Boogeyman” has gone after match HIS description. #line:graveyard-claire-09
+	There is a long pause as the two siblings stand there. #line:graveyard-narrator-07
+	<<wait 2>>
+	->Keep questioning Lucas about the Boogeyman #line:graveyard-narrator-08
+		Claire: What are you going to do when you find him? #line:graveyard-claire-10
+		Lucas: You already know. #line:graveyard-lucas-04
+		Claire: I need to hear you say it. #line:graveyard-claire-11
+		Lucas with his fists clenched turns around and starts yelling at Claire. #line:graveyard-narrator-09
+		//Preferably have an animation of him turning around here
+		Lucas: I’M GONNA KILL HIM OKAY! I’M GONNA FIND HIM, AND WHEN I DO, I’M GONNA KILL HIM! #line:graveyard-lucas-05
+		->Tell Lucas he can't kill people #line:graveyard-narrator-10
+		->Say nothing #line:graveyard-narrator-11
+	->Attempt to comfort Lucas #line:graveyard-narrator-20
+
+===
