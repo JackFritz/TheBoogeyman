@@ -1,51 +1,53 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Yarn.Unity;
 
 public class Togglescript : MonoBehaviour
 {
 
-    public DialogueRunner Dr;
-    public Canvas canvas;
+    public GameObject Dialog;
     public GameObject Player;
 
-    
-    
+    public bool Talk;
+    void OnPreCull()
+    {
+        //Dialog.SetActive(true);
+    }
     // Start is called before the first frame update
     void Start()
     {
-        canvas.enabled = false;
-        Dr.Stop();
+        //Dialog.SetActive(false);
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (CompareTag("Lucas"))
-        {
-            canvas.enabled = true;
-            Dr.StartDialogue("Start");
-        }
-        else if (CompareTag("Finish"))
-        {
-            canvas.enabled = true;
-            Dr.StartDialogue("Node");
-        }
-
-
+       
+            Talk = true;
+            Debug.Log("Enterd Tri");
+        
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        canvas.enabled = false;
-        Dr.Stop();
+        Talk = false;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.E))
+        {
+            Talk = true;
+        }
+        if(Talk == true)
+        {
+            Dialog.SetActive(true);  
+        }
+        else
+        {
+            Dialog.SetActive(false);
+        }
         
-
     }
 }
-
