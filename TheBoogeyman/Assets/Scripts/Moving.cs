@@ -9,6 +9,8 @@ public class Moving : MonoBehaviour
     public float moveHorizontal; // call new float for horizontal movement
     public float moveVertical; // call new float for vertical movement
 
+    static public GameObject dr;
+
     // Start is called before the first frame update
     void Start()
     {

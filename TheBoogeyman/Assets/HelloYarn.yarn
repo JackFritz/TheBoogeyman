@@ -1,21 +1,56 @@
 ﻿title: Start
+tags: 
+position: -37,59
 ---
-Cal: Wowzawee, let's a go!
-Cal: Is yarn kinda cool?
+<<if $Visited is true>>
+Cal:[[Hey friend!|Start2]] #line:095b49d 
+<<endif>>
 
--> i guess
--> No it's mega bad
--> YEAH THIS SHIT BE ROCKING!!!!
+Cal: Wowzawee, let's a go! #line:09aad90 
+Cal: Is yarn kinda cool? #line:04e81f7 
 
-Jack: Lets get writting
-Ahn: tHEN THIS IS THE NEXT line here.
+-> i guess #line:02abe91 
+-> No it's mega bad #line:04f79e0 
+-> YEAH THIS SHIT BE ROCKING!!!! #line:0838e85 
 
-Jack: Can I respond?
+Jack: Lets get writting #line:02f227c 
+Ahn: tHEN THIS IS THE NEXT line here. #line:0881c08 
 
--> Yes
--> No
--> SUPOER GLUUUE
+Jack: Can I respond? #line:051b1f1 
 
-Ahn: Then i add a line here
-Cal: and lets end the convo here
+-> Yes #line:0d9e3f2 
+-> No #line:085b6df 
+-> SUPOER GLUUUE #line:09cc67a 
+
+Ahn: Then i add a line here #line:0419bcb 
+<<set $Visited to true>>
+Cal: and lets end the convo here #line:0671304
+===
+title: Node
+tags: 
+position: 346,122.5
+---
+Joe: Mama is the name my friend #line:0e2d6a6 
+Kyle: yeah lets make it grand #line:05020b7 
+Joe: if you think this is the end #line:0a2439a 
+Kyle: reach out and take my hand. #line:02e39f7 
+
+Jack: Uh... #line:095c42d 
+-> reach for his hand #line:098bff4 
+-> PIMP SLAPPP #line:0dd735e 
+-> walk away #line:0a614a0 
+-> ask alexa to reapeat #line:0b7a775 
+
+Cal: Let's Ride!! #line:0b791fe 
+===title: Start2
+tags: 
+---
+===
+title: Start2
+tags: 
+position: -15.271116124005857,325.9801403905374
+---
+Cal: LFG!!!! WE GOT THE SYTEM WORKING!!! #line:06ad7cc 
+Jack: relax bud, youre scaring the customers #line:04abc13 
+Ahn: *Does Art* #line:07052b9 
 ===
