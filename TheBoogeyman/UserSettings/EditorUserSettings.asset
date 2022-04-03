@@ -28,6 +28,7 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22424703114646680c031c2e153010291705166a1f382f3e232c0f7cb0ae6576b2a805f9e6393a730a12ee3f01701431fb1e10
       flags: 0
     RecentlyUsedScenePath-8:
@@ -38,6 +39,12 @@ EditorUserSettings:
     RecentlyUsedScenePath-8:
       value: 22424703114646680c031c2e153010291705166a1f382f3e232c0f7cb0ae6576b2a81fe7f3283073100cfb2e0b701431fb1e10
 >>>>>>> d85c882c704281247eadb4e9273c747c209fe51e
+=======
+      value: 22424703114646680e0b0227036c780217011d332d3a227e38271427fb
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680c031c2e153010291705166a1f382f3e232c0f7cb0ae6576b2a805f9e6393a730a12ee3f01701431fb1e10
+>>>>>>> parent of 5219820 (Revert "Revert "gamemap-update"")
       flags: 0
     RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c780217011d332d3a227e38271427fb
