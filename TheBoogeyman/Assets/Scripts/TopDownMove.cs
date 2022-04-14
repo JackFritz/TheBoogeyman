@@ -68,6 +68,10 @@ public class TopDownMove : MonoBehaviour
         
         //actually moves player
         player.velocity = new Vector2((Input.GetAxis("Horizontal")*speed), (Input.GetAxis("Vertical")*speed));
+        if(Input.anyKey == false)
+        {
+            player.velocity = new Vector2(0, 0);
+        }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
