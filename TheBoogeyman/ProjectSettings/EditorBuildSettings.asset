@@ -6,6 +6,69 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Prologue/TriggerWarning.unity
+    guid: def4980294f89f44a8640269cb8f73f9
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Start.unity
+    guid: a728c85e2f47e864392b165dd6d42342
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Approach.unity
+    guid: a7285c96f3b06244fbf6950619175f6d
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Approach2.unity
+    guid: a96fa9d1223d5944ca2a765366c9f96e
+  - enabled: 1
+    path: Assets/Scenes/Prologue/BeQuiet.unity
+    guid: 0dde5bb5077681547a64a3fa15c1b760
+  - enabled: 1
+    path: Assets/Scenes/Prologue/BeQuiet2.unity
+    guid: 124ab61539d3a3941afc831f429f5abf
+  - enabled: 1
+    path: Assets/Scenes/Prologue/BeQuiet3.unity
+    guid: d172a820c9177394ab91ba3ed867a779
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Defend.unity
+    guid: ce1a53209d465d245805a6e53bfda168
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Defend2.unity
+    guid: 26c73a461c7191540a0cb4201eaabc62
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Tackle.unity
+    guid: 1df75ea24fa73bd43a39b3e1cd0705cd
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Tackle2.unity
+    guid: 28efe65d96fc172408a980cd948c6d17
+  - enabled: 1
+    path: Assets/Scenes/Prologue/PointAtYou.unity
+    guid: de50d6e78face934f8af66c40b90e6d4
+  - enabled: 1
+    path: Assets/Scenes/Prologue/PointAtYou2.unity
+    guid: 6b647c7dd55c7694f880f5e35d41ce11
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Chase.unity
+    guid: 6c78401c5429a2d41bda58c59235fb30
+  - enabled: 1
+    path: Assets/Scenes/Prologue/EndingI.unity
+    guid: b4a4fe1aff1695d4db8de9b20110dc7b
+  - enabled: 1
+    path: Assets/Scenes/Prologue/EndingI2.unity
+    guid: 31b6de266eb97264eb02b22c5c689a5c
+  - enabled: 1
+    path: Assets/Scenes/Prologue/EndingV.unity
+    guid: 9328ec1c7af110b4b8fcc78a60ac04cf
+  - enabled: 1
+    path: Assets/Scenes/Prologue/WakeUp.unity
+    guid: a99d6e6726b8d674abbb0bd9b95aaf9c
+  - enabled: 1
+    path: Assets/Scenes/Prologue/WakeUp2.unity
+    guid: 0279e5079f13e0c40bb1d694c3e13110
+  - enabled: 1
+    path: Assets/Scenes/Prologue/Stay.unity
+    guid: 8e2d55d5fd35de64d9cac70f6a98ec01
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: e953105894258b243a7016f229ff46f6
+  - enabled: 1
     path: Assets/Scenes/Graveyard.unity
     guid: 3844fe889b03a4449930afbfced31681
   m_configObjects: {}
