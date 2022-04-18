@@ -19,7 +19,7 @@ public class TopDownMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         ply.flipX = false;
 
@@ -67,10 +67,10 @@ public class TopDownMove : MonoBehaviour
         }
         
         //actually moves player
-        player.velocity = new Vector2((Input.GetAxis("Horizontal")*speed), (Input.GetAxis("Vertical")*speed));
+        player.velocity = new Vector2((Input.GetAxis("Horizontal")*speed)*Time.deltaTime, (Input.GetAxis("Vertical")*speed) * Time.deltaTime);
         if(Input.anyKey == false)
         {
-            player.velocity = new Vector2(0, 0);
+            player.velocity = new Vector2(0 * Time.deltaTime, 0 * Time.deltaTime);
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -82,4 +82,6 @@ public class TopDownMove : MonoBehaviour
             interact = false;
         }
     }
+
+    
 }

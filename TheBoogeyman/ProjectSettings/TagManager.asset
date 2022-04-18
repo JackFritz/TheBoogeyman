@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Lucas
+  - Gravestone
+  - Storefront
+  - Mirror
+  - Couch
+  - KitchenTable
+  - Refrigerator
+  - PicofElizabeth
+  - WantedPoster
   layers:
   - Default
   - TransparentFX
