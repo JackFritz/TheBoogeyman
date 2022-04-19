@@ -12,6 +12,76 @@ tags:
 	Claire: Just know that I am always here for you. #line:graveyard-claire-04
 	Lucas doesn't say anything. Claire realizes that her brother wants to be alone. #line:graveyard-narrator-04
 	//This is where the player would walk away and then a new dialogue box would trigger
+	Lucas: I'm gonna kill him. #line:graveyard-lucas-11
+	Claire stops in her tracks and turns back towards her brother. #line:graveyard-narrator-25
+	Claire: What? #line:graveyard-claire-20
+	Lucas: I'm gonna find him, and when I do, I'm gonna to kill him. #line:graveyard-lucas-12
+	Lucas's fists are clenched and yet he says this with an unnerving calmness. #line:graveyard-narrator-26
+	Claire's suspicion that Lucas might be the Boogeyman may have just been confirmed, but there might be more pressing matters at hand. #line:graveyard-narrator-27
+	->Tell Lucas he shouldn't kill people #line:graveyard-narrator-36
+		Claire: You can’t take another man’s life, Lucas. #line:graveyard-claire-21
+		Lucas: Why not? Why does he get to live when she died?!? #line:graveyard-lucas-13
+		->It isn't what his family would have wanted #line:graveyard-narrator-28
+			Claire: Because this isn't what they would have wanted. They would be horrrified if you became a killer. #line:graveyard-claire-22 
+			Lucas: Well it doesn't matter what they wanted because they aren't here anymore to tell us... and soon he won't be around either. #line:graveyard-lucas-14
+			Lucas starts to walk away. (There is no animation yet) #line:graveyard-narrator-29
+		->Say something cliche #line:graveyard-narrator-35
+			Claire: Because it is not our choice. What happened was a tragedy but that doesn’t mean you get to play Judge, Jury, and Executioner. #line:graveyard-claire-23
+			Lucas frustrated after hearing this turns around and storms off. (There is no animation yet) #line:graveyard-narrator-30
+		->Justice #line:graveyard-narrator-31
+			Claire: When we find him he will be brought to justice. He'll serve life in prison, never see the outside world again. #line:graveyard-claire-24
+			Lucas: Do you think I care about justice Claire? I want him to feel the FEAR that she felt when the gun was jammed in her head. #line:graveyard-lucas-15
+			I want him to feel the PAIN that she felt when the bullet extinguished her life. I want REVENGE Claire!  #line:graveyard-lucas-16
+			Lucas then turns away from Claire as he angrily storms off. (There is no animation yet) #line:graveyard-narrator-32
+		->Stammer your words a bit #line:graveyard-narrator-33
+			Claire: I, uhh, well you see, you know, uhh... oh man... becasue you just can't. #line:graveyard-claire-25
+			Lucas, amazed at his sisters talent for public speaking turns around and walks away annoyed. (There is no animation yet) #line:graveyard-narrator-34
+	->Accuse Lucas of being the Boogeyman #line:graveyard-narrator-37
+		Claire: You're the Boogeyman aren't you? #line:graveyard-claire-26
+		Lucas doesn't attempt to deny it. #line:graveyard-narrator-38
+		Lucas: How did you know it was me? #line:graveyard-lucas-17
+		Claire: I heard a news report about him over the radio. All of the criminals that “The Boogeyman” has gone after match HIS description... you umm... don't seem to care that I know. #line:graveyard-claire-27
+		Lucas: This doesn't change what has to be done, and it's not like you're going to stop me. #line:graveyard-lucas-18
+		->Tell Lucas he shouldn't kill people #line:graveyard-narrator-39
+			Claire: You can’t take another man’s life, Lucas. #line:graveyard-claire-28
+			Lucas: Why not? Why does he get to live when she died?!? #line:graveyard-lucas-19
+			->It isn't what his family would have wanted #line:graveyard-narrator-40
+				Claire: Because this isn't what they would have wanted. They would be horrrified if you became a killer. #line:graveyard-claire-29 
+				Lucas: Well it doesn't matter what they wanted because they aren't here anymore to tell us... and soon he won't be around either. #line:graveyard-lucas-20
+				Lucas starts to walk away. (There is no animation yet) #line:graveyard-narrator-41
+			->Say something cliche #line:graveyard-narrator-42
+				Claire: Because it is not our choice. What happened was a tragedy but that doesn’t mean you get to play Judge, Jury, and Executioner. #line:graveyard-claire-30
+				Lucas frustrated after hearing this turns around and storms off. (There is no animation yet) #line:graveyard-narrator-43
+			->Justice #line:graveyard-narrator-44
+				Claire: When we find him he will be brought to justice. He'll serve life in prison, never see the outside world again. #line:graveyard-claire-31
+				Lucas: Do you think I care about justice Claire? I want him to feel the FEAR that she felt when the gun was jammed in her head. #line:graveyard-lucas-21
+				I want him to feel the PAIN that she felt when the bullet extinguished her life. I want REVENGE Claire!  #line:graveyard-lucas-22
+				Lucas then turns away from Claire as he angrily storms off. (There is no animation yet) #line:graveyard-narrator-45
+			->Stammer your words a bit #line:graveyard-narrator-46
+				Claire: I, uhh, well you see, you know, uhh... oh man... becasue you just can't. #line:graveyard-claire-32
+				Lucas, amazed at his sisters talent for public speaking turns around and walks away annoyed. (There is no animation yet) #line:graveyard-narrator-47
+		->Threaten to call the cops #line:graveyard-narrator-48
+			Claire: I could tell the police. #line:graveyard-claire-33
+			Lucas: //chuckles// Do you really think they care? Wake up Claire, it's been two weeks since she was murdered and the lazy ass cops of this city haven't even attempted to continue their so-called "investigation." #line:graveyard-lucas-23
+			They just arrive late at the scene of the crime to clean up my messes. #line:graveyard-lucas-24
+			->Tell Lucas he shouldn't kill people #line:graveyard-narrator-49
+				Claire: You can’t take another man’s life, Lucas. #line:graveyard-claire-34
+				Lucas: Why not? Why does he get to live when she died?!? #line:graveyard-lucas-25
+				->It isn't what his family would have wanted #line:graveyard-narrator-50
+					Claire: Because this isn't what they would have wanted. They would be horrrified if you became a killer. #line:graveyard-claire-35 
+					Lucas: Well it doesn't matter what they wanted because they aren't here anymore to tell us... and soon he won't be around either. #line:graveyard-lucas-26
+					Lucas starts to walk away. (There is no animation yet) #line:graveyard-narrator-51
+				->Say something cliche #line:graveyard-narrator-52
+					Claire: Because it is not our choice. What happened was a tragedy but that doesn’t mean you get to play Judge, Jury, and Executioner. #line:graveyard-claire-36
+					Lucas frustrated after hearing this turns around and storms off. (There is no animation yet) #line:graveyard-narrator-53
+				->Justice #line:graveyard-narrator-54
+					Claire: When we find him he will be brought to justice. He'll serve life in prison, never see the outside world again. #line:graveyard-claire-37
+					Lucas: Do you think I care about justice Claire? I want him to feel the FEAR that she felt when the gun was jammed in her head. #line:graveyard-lucas-27
+					I want him to feel the PAIN that she felt when the bullet extinguished her life. I want REVENGE Claire!  #line:graveyard-lucas-28
+					Lucas then turns away from Claire as he angrily storms off. (There is no animation yet) #line:graveyard-narrator-55
+				->Stammer your words a bit #line:graveyard-narrator-56
+					Claire: I, uhh, well you see, you know, uhh... oh man... becasue you just can't. #line:graveyard-claire-38
+					Lucas, amazed at his sisters talent for public speaking turns around and walks away annoyed. (There is no animation yet) #line:graveyard-narrator-57
 
 -> Confront Lucas about your suspicion that he is the Boogeyman #line:graveyard-narrator-05
 	Claire: They've been calling you, "The Boogeyman." #line:graveyard-claire-05
@@ -60,6 +130,44 @@ tags:
 		Claire puts her hand on Lucas's shoulder. #line:graveyard-narrator-22
 		Claire: Well, if you do want to talk I am always here for you. #line:graveyard-claire-19
 		Lucas doesn't say anything. Claire takes her hand off of his shoulder and starts to walk away. (There is no animation yet) #line:graveyard-narrator-23
+		->Stop and question him more about the Boogeyman #line:graveyard-narrator-58
+			Claire stops herself dead in her tracks. She can't leave until she knows what Lucas plans to do as the Boogeyman once he finds who is is looking for. #line:graveyard-narrator-59
+			Claire: Lucas, what are you going to do when you find him. #line:graveyard-claire-39
+			Lucas: //...sigh...// You just had to ruin it, didn't you Claire. #line:graveyard-lucas-29
+			Claire: Lucas please just tell me. #line:graveyard-claire-40
+			Lucas: I'm sure you already have your suspicions. #line:graveyard-lucas-30
+			Claire: I need to hear you say it. #line:graveyard-claire-41
+			Lucas briefly pauses. #line:graveyard-narrator-60
+			<<wait 2>>
+			Lucas: I'm gonna fucking kill him. #line:graveyard-lucas-31
+			->Say nothing #line:graveyard-narrator-61
+				Claire stands there at a loss for words. Lucas then starts to walk away. (There is no animation yet) #line:graveyard-narrator-71
+			->Tell Lucas he can't just kill people #line:graveyard-narrator-62
+				Claire: You can’t take another man’s life, Lucas. #line:graveyard-claire-42
+				Lucas: Why not? Why does he get to live when she died?!? #line:graveyard-lucas-32
+				->It isn't what his family would have wanted #line:graveyard-narrator-63
+					Claire: Because this isn't what they would have wanted. They would be horrrified if you became a killer. #line:graveyard-claire-43 
+					Lucas: Well it doesn't matter what they wanted because they aren't here anymore to tell us... and soon he won't be around either. #line:graveyard-lucas-33
+					Lucas starts to walk away. (There is no animation yet) #line:graveyard-narrator-64
+				->Say something cliche #line:graveyard-narrator-65
+					Claire: Because it is not our choice. What happened was a tragedy but that doesn’t mean you get to play Judge, Jury, and Executioner. #line:graveyard-claire-44
+					Lucas frustrated after hearing this turns around and storms off. (There is no animation yet) #line:graveyard-narrator-66
+				->Justice #line:graveyard-narrator-67
+					Claire: When we find him he will be brought to justice. He'll serve life in prison, never see the outside world again. #line:graveyard-claire-45
+					Lucas: Do you think I care about justice Claire? I want him to feel the FEAR that she felt when the gun was jammed in her head. #line:graveyard-lucas-34
+					I want him to feel the PAIN that she felt when the bullet extinguished her life. I want REVENGE Claire!  #line:graveyard-lucas-35
+					Lucas then turns away from Claire as he angrily storms off. (There is no animation yet) #line:graveyard-narrator-68
+				->Stammer your words a bit #line:graveyard-narrator-69
+					Claire: I, uhh, well you see, you know, uhh... oh man... becasue you just can't. #line:graveyard-claire-46
+					Lucas, amazed at his sisters talent for public speaking turns around and walks away annoyed. (There is no animation yet) #line:graveyard-narrator-70
+		->Leave. Lucas probably wants to be alone right now. #line:graveyard-narrator-72
+			As Claire walks towards her car Lucas turns around. #line:graveyard-narrator-73
+			Lucas: Hey Claire. #line:graveyard-lucas-36
+			Claire stops and turns around. #line:graveyard-narrator-74
+			Claire: Yeah? #line:graveyard-claire-47
+			Lucas: Thanks. #line:graveyard-lucas-37
+			Claire smiles and nods towards Lucas. She then makes her way back to her car as she decides what to do next. #line:graveyard-narrator-75
+			Even though she has comforted Lucas, maybe she should learn more about what he plans to do as the Boogeyman. Maybe his house will have some clues. (And then you would go to Claire's car and start the next scene) #line:graveyard-narrator-76
 
 ===
 title: Gravestone
