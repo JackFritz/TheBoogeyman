@@ -1,0 +1,49 @@
+﻿title: HouseDialogue
+tags:
+---
+Claire notices a handgun on the table in front of her surrounded by scattered bullets that litter the floor. #line:house-narrator-01
+->Take the gun #line:house-narrator-02
+	Claire picks up the pistol. If worse comes to worst, Claire might have to threaten Lucas with a firearm to stop him. #line:house-narrator-03
+	She checks the mag, fully loaded. Claire holsters the gun on her belt and then notices something else. #line:house-narrator-04
+	Laid out on the table in front of her is a map of Crag City with pictures of the different criminals that "The Boogeyman" has taken down. #line:house-narrator-05
+	Looking closer there are multiple locations on the map that are crossed off, along with the names of apprehended criminals crossed off too. #line:house-narrator-06
+	Claire then notices that one location is circled instead of being crossed off. It is an apartment building downtown. #line:house-narrator-07
+	Claire writes down the location. Time to make it back to your car and help Lucas. #line:house-narrator-08
+->Leave the gun #line:house-narrator-09
+	Claire doesn't want anything to do with a gun. She wants to leave it behind but decides that she should prepare for the worst case scenario. #line:house-narrator-10
+	Claire holsters the gun on her belt and then notices something else. Laid out on the table in front of her is a map of Crag City with pictures of the different criminals that "The Boogeyman" has taken down. #line:house-narrator-11
+	Looking closer there are multiple locations on the map that are crossed off, along with the names of apprehended criminals crossed off too. #line:house-narrator-12
+	Claire then notices that one location is circled instead of being crossed off. It is an apartment building downtown. #line:house-narrator-13
+	Claire writes down the location. Time to make it back to your car and help Lucas. #line:house-narrator-14
+===
+
+title: Mirror
+tags:
+---
+Mirror:What does Lucas see when he looks in this mirror? I see me but does he see him? Or does he see The Boogeyman? Is Lucas still even here?
+===
+title: Couch
+tags:
+---
+Couch:The cushions are mangled and worn. The blanket and pillow on the couch are disheveled and wreak of sweat. Lucas has spent a lot of sleepless nights here.
+===
+title: Refigerator
+tags:
+---
+Refrigerator:The smell is nauseating. Who knows what is here or how long it has been there. Even the outside white has yellowed and covered with a brown ooze.
+===
+title: KitchenTable
+tags:
+---
+Table:The table seems so empty. One by one, Lucas has lost everyone in his life. I hope I can stop him, he need help.
+===
+title: KitchenTrash
+tags:
+---
+Trashcan:Christ, Lucas, what happened to you? Trash is strewn all over the floor, the smell of rotting food punctures my nostril. I can not stay here, I am gonna be sick.
+===
+title: PicofElizabeth
+tags:
+---
+Picture:It is a picture of Lucas and Elizabeth taken last summer. What I wouldn't do to see Lucas smile again. The beer reeks of spilled beer, soaked into the surrounding furniture and the wall. Trash lines the floor surrounding the picture, a repulsive congregation before it’s tragic pastor.
+===

@@ -1,0 +1,117 @@
+﻿title: ApartmentDialogue
+tags:
+---
+Claire: I really hope I'm not too late. #line:apartment-claire-01
+Claire pulls out her pistol. Does she really want to pursue further with this weapon? #line:apartment-narrator-01
+It might be harder to talk to Lucas with it, but she will be safer. #line:apartment-narrator-02
+->Discard the pistol #line:apartment-narrator-03
+	Claire thinks that she can try to reason with Lucas. She throws her gun to the side. (The player would then walk forward) #line:apartment-narrator-04
+	Claire then sees "The Boogeyman" pointing a gun at a bloody man with a broken nose who is lying on the ground, using one of his arms to prop himself up. #line:apartment-narrator-05
+	"The Boogeyman" goes to hit him over the head with the gun. #line:apartment-narrator-06
+	Claire: STOP!!! #line:apartment-claire-02
+	Lucas stops mid-swing and turns around to look at Claire. #line:apartment-narrator-07
+	Boogeyman: I told you not to follow me! #line:apartment-boogeyman-01
+	Murderer: Why do you two care what happens to me anyway? #line:apartment-murderer-01
+	The Boogeyman then takes off his mask and jams the gun into the murderer’s face. #line:apartment-narrator-08
+	Lucas: BECAUSE YOU KILLED MY DAUGHTER!!! #line:apartment-narrator-09
+	Murderer is now laughing with the gun in his face. #line:apartment-narrator-10
+	Murderer: I say she deserved it. An eye for an eye. #line:apartment-murderer-02
+	Lucas then hits the murderer in the head with the gun and then points it back in his face. #line:apartment-narrator-11
+	Lucas: SHE WAS ONLY SEVEN!!! AND I TOLD YOU THAT NIGHT, I DIDN'T KILL YOUR SON!!! #line:apartment-lucas-01
+	This is new information to Claire. The murderer lost his kid too, and he thinks Lucas did it. #line:apartment-narrator-12
+	Claire knows her brother isn't a murderer, but any second now he could become one if Claire doesn't do something. #line:apartment-narrator-13
+	->Tell Lucas if he kills him he is no better #line:apartment-narrator-14
+		Claire: If you pull that trigger you are no better than him. You're just another low life who would happily snuff out the life of another. #line:apartment-claire-03
+		And plus, this guy is clearly unwell. He thinks you killed his kid? #line:apartment-claire-04
+		Murderer: HE DID KILL MY KID!!! #line:apartment-murderer-03
+		Claire: Can it buddy I'm trying to help here. #line:apartment-claire-05
+		Lucas is conflicted as he stands there staring down the sights of his gun. A tear runs down his cheek. #line:apartment-narrator-15
+		Lucas: She was seven... #line:apartment-lucas-02
+		Claire: And he is going to be locked away for the rest of his life, forgotten and alone, but if you pull that trigger you are the one who will be alone. #line:apartment-claire-06
+		Lucas contemplates his sisters words. He then holsters his pistol as Claire walks up and hugs him. #line:apartment-narrator-16
+		Murderer: What! Come on! DO IT!!! YOU KNOW YOU WANT TO!!! JUST LET ME BE WITH MY SON!!! #line:apartment-murderer-04
+		Lucas lets go of Claire and puts his face up to the murderers. #line:apartment-narrator-17
+		Lucas: NO!!! YOU DON'T GET TO DESTROY WHO I AM!!! #line:apartment-lucas-03
+		The murderer lunges at Lucas. Lucas promptly punches him in the face knocking him out. #line:apartment-narrator-18
+		Lucas: Come on, let's go. (The scene would end and Ending A plays) #line:apartment-lucas-04
+	->This isn't what his family would have wanted #line:apartment-narrator-19
+		Claire: This isn't what they would have wanted Lucas. This isn't what I want for you. #line:apartment-claire-07
+		Lucas is conflicted as he stands there staring down the sights of his gun. #line:apartment-narrator-20
+		Claire: Lucas you know that I am always here for you, and I will continue to be here for you, but you need to put away that gun. #line:apartment-claire-08
+		Lucas holsters his pistol as Claire walks up and hugs him. #line:apartment-narrator-21
+		Murderer: What! Come on! DO IT!!! YOU KNOW YOU WANT TO!!! LET ME BE WITH MY SON!!! #line:apartment-murderer-05
+		Lucas lets go of Claire and looks down at the murderer. #line:apartment-narrator-22
+		Lucas: I'm done trying to convince you. You don't get to destroy who I am. #line:apartment-lucas-05
+		The murderer lunges at Lucas. Lucas promptly kicks him in the face knocking him out. #line:apartment-narrator-23
+		Lucas: Come on, let's go. (The scene would end and Ending A plays) #line:apartment-lucas-06
+->Move forward with your pistol at the ready #line:apartment-narrator-24
+	(after the player runs forward) Claire sees "The Boogeyman" pointing a gun at a bloody man with a broken nose who is lying on the ground, using one of his arms to prop himself up. #line:apartment-narrator-25
+	"The Boogeyman" goes to hit him over the head with the gun. #line:apartment-narrator-26
+	->Point your gun at him #line:apartment-narrator-27
+		Claire has her gun aimed at the Boogeyman. #line:apartment-narrator-28
+		Claire: Put it down, before I make you. #line:apartment-claire-09
+		The Boogeyman looks over at Claire as Lucas's voice comes out. #line:apartment-narrator-29
+		Lucas: After everything we have been through Claire, you would just shoot your own brother. #line:apartment-lucas-07
+		->Shoot him in the hand #line:apartment-narrator-30
+			Claire shoots the Boogeyman in the hand and he drops his gun to the ground. #line:apartment-narrator-31
+			Boogeyman: AHHHH!!!! FUCKKKK!!! #line:apartment-boogeyman-02
+			He grasps his bloody hand. #line:apartment-narrator-32
+			Claire: Sorry, I was aiming for the gun. #line:apartment-claire-10
+			Claire runs over and kicks the gun away from the Boogeyman and the murderer, and then trains her gun back on the Boogeyman so he doesn't leave. #line:apartment-narrator-33
+			Murderer: Why do you care what happens to me anyway? #line:apartment-murderer-06
+			The Boogeyman takes off his mask with his good hand. #line:apartment-narrator-34
+			Lucas: Because you killed my daughter. #line:apartment-lucas-08
+			Murderer then starts laughing hysterically while he is still lying there beat up and bruised on the floor. Lucas turns to Claire. #line:apartment-narrator-35
+			Lucas: You would really save this piece of shit? #line:apartment-lucas-09
+			Claire: No Lucas, I'm saving you. #line:apartment-claire-11
+			Lucas: Well... what now? #line:apartment-lucas-10
+			->Leave both Lucas and the murderer for the police #line:apartment-narrator-36
+				Claire: The police will be here soon. Then they can take both of you into custody. #line:apartment-claire-12
+				Lucas: What?!? Why me, I haven't done anything? #line:apartment-lucas-11
+				Murderer: HAHAHAHAHA!!!! You beat perfectly upstanding citizens such as myself to a pulp. C'mon man, even miss trigger happy over there knows that vigilantism is illegal. #line:apartment-murderer-07
+				Lucas looks annoyed and kicks the murderer lying on the ground. He then turns over to Claire, an anrgy look in his eyes. #line:apartment-narrator-37
+				She keeps pointing her gun at him as her finger itches on the trigger. #line:apartment-narrator-38
+				Claire: Stay right there or I'll shoot! #line:apartment-claire-13
+				They stand there as police sirens are heard in the background. (The scene would end and move to the epilogue) #line:apartment-narrator-39
+			->Leave the murderer for the police as you flee the scene with Lucas #line:apartment-narrator-40
+				Claire lowers her weapon. #line:apartment-narrator-41
+				Claire: The police will be here soon. Then they can take him into custody. #line:apartment-claire-14
+				Lucas looks down at the murderer. #line:apartment-narrator-42
+				Lucas: We can go now, he won't be going anywhere. #line:apartment-lucas-12
+				Murderer: Yeah not after you broke my legs dick. #line:apartment-murderer-08
+				Claire: You're just lucky he didn't kill you. #line:apartment-claire-15
+				The two siblings leave the apartment building as police sirens sound off in the distance. (The scene would end and Ending C plays) #line:apartment-narrator-43
+		->Put your gun away and talk him down #line:apartment-narrator-44
+			Claire throws her gun to the side. #line:apartment-narrator-45
+			Claire: You can't kill him! #line:apartment-claire-16
+			Murderer: Why do you two care what happens to me anyway? #line:apartment-murderer-09
+			The Boogeyman then takes off his mask and jams the gun into the murderer’s face. #line:apartment-narrator-46
+			Lucas: BECAUSE YOU KILLED MY DAUGHTER!!! #line:apartment-lucas-13
+			The Murderer is now laughing with the gun in his face. #line:apartment-narrator-47
+			Murderer: I say she deserved it. An eye for an eye. #line:apartment-murderer-10
+			Lucas then hits the murderer in the head with the gun and then points it back in his face. #line:apartment-narrator-48
+			Lucas: SHE WAS ONLY SEVEN!!! AND I TOLD YOU THAT NIGHT, I DIDN'T KILL YOUR SON!!! #line:apartment-lucas-14
+			This is new information to Claire. The murderer lost his kid too, and he thinks Lucas did it. #line:apartment-narrator-49
+			Claire knows her brother isn't a murderer, but any second now he could become one if Claire doesn't do something. #line:apartment-narrator-50
+			Claire: Lucas, you can’t kill him! This isn’t what they would have… #line:apartment-claire-17
+			//BANG!!!// #line:apartment-narrator-51
+			Blood splats onto Lucas’s face as the now lifeless body of the murderer falls to the ground. #line:apartment-narrator-52
+			Claire now falls down onto her knees with a horrified look on her face as police sirens sound off in the distance. #line:apartment-narrator-53
+			(The scene would end and Ending B plays) #line:apartment-narrator-54
+	->Yell at him to stop #line:apartment-narrator-55
+		Claire: You can't kill him! #line:apartment-claire-18
+		Murderer: Why do you two care what happens to me anyway? #line:apartment-murderer-11
+		The Boogeyman then takes off his mask and jams the gun into the murderer’s face. #line:apartment-narrator-56
+		Lucas: BECAUSE YOU KILLED MY GODDAMN DAUGHTER!!! #line:apartment-lucas-15
+		The Murderer is now laughing with the gun in his face. #line:apartment-narrator-57
+		Murderer: I say she deserved it. An eye for an eye. #line:apartment-murderer-12
+		Lucas then hits the murderer in the head with the gun and then points it back in his face. #line:apartment-narrator-58
+		Lucas: SHE WAS ONLY SEVEN!!! AND I TOLD YOU THAT NIGHT, I DIDN'T KILL YOUR SON!!! #line:apartment-lucas-16
+		This is new information to Claire. The murderer lost his kid too, and he thinks Lucas did it. #line:apartment-narrator-59
+		Claire knows her brother isn't a murderer, but any second now he could become one if Claire doesn't do something. #line:apartment-narrator-60
+		Claire: Lucas, you can’t kill him! This isn’t what they would have… #line:apartment-claire-19
+		//BANG!!!// #line:apartment-narrator-61
+		Blood splats onto Lucas’s face as the now lifeless body of the murderer falls to the ground. #line:apartment-narrator-62
+		Claire now falls down onto her knees with a horrified look on her face as police sirens sound off in the distance. #line:apartment-narrator-63
+		(The scene would end and Ending B plays) #line:apartment-narrator-64
+===
